@@ -1,0 +1,1090 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Installing%20GTAV%20on%20Steam%20Deck/">
+      
+      
+      
+      <link rel="icon" href="../assets/V_icon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
+    
+    
+      
+        <title>Modding GTA V on Steam Deck - GTAV on Deck</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modding-gta-v-on-steam-deck" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="GTAV on Deck" class="md-header__button md-logo" aria-label="GTAV on Deck" data-md-component="logo">
+      
+  <img src="../assets/V_icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GTAV on Deck
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Modding GTA V on Steam Deck
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="GTAV on Deck" class="md-nav__button md-logo" aria-label="GTAV on Deck" data-md-component="logo">
+      
+  <img src="../assets/V_icon.png" alt="logo">
+
+    </a>
+    GTAV on Deck
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Installing%20GTAV%20on%20Steam%20Deck/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installing GTAV on Steam Deck
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Modding GTA V on Steam Deck
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Modding GTA V on Steam Deck
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#disclaimers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disclaimers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommendations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-steam-treats-non-steam-games" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Steam Treats Non-Steam games
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Steam Treats Non-Steam games">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modding-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modding Methods
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modding Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-windows-computer-method-recommended-for-heavy-modding" class="md-nav__link">
+    <span class="md-ellipsis">
+      The "Windows Computer" Method [Recommended for heavy modding]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-external-drive-method-what-i-did" class="md-nav__link">
+    <span class="md-ellipsis">
+      The "External Drive" Method [What I did]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-remote-method-recommended-for-light-modding" class="md-nav__link">
+    <span class="md-ellipsis">
+      The "Remote" Method [Recommended for light modding]
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The "Remote" Method [Recommended for light modding]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes-on-this-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes on this method
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-local-method-not-recommended" class="md-nav__link">
+    <span class="md-ellipsis">
+      The "Local" Method [Not Recommended]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lets-fing-do-this-thing-methods-1-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Let's F***ing do this thing [Methods 1 &amp; 2]
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Let's F***ing do this thing [Methods 1 & 2]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#you-will-need-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      You will need a...
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-install-and-test-your-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Install and test your mods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-copying-mods-to-the-deck" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Copying Mods to the Deck
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Copying Mods to the Deck">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#copy-the-following-to-the-deck-according-to-the-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Copy the following to the Deck according to the table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-setting-deck-launch-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Setting Deck Launch Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-launch" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Launch!
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#you-cant-launch-the-game-or-you-get-cant-find-r-launcher-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      You can't launch the game or you get can't find R* launcher error
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-can-load-into-the-game-but-cant-open-menyoo" class="md-nav__link">
+    <span class="md-ellipsis">
+      You can load into the game but can't open menyoo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-can-open-menyoo-and-use-it-but-you-cant-spawn-the-car" class="md-nav__link">
+    <span class="md-ellipsis">
+      You can open menyoo and use it but you cant spawn the car
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-enjoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Enjoy!
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#disclaimers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disclaimers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommendations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-steam-treats-non-steam-games" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Steam Treats Non-Steam games
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Steam Treats Non-Steam games">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modding-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modding Methods
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modding Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-windows-computer-method-recommended-for-heavy-modding" class="md-nav__link">
+    <span class="md-ellipsis">
+      The "Windows Computer" Method [Recommended for heavy modding]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-external-drive-method-what-i-did" class="md-nav__link">
+    <span class="md-ellipsis">
+      The "External Drive" Method [What I did]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-remote-method-recommended-for-light-modding" class="md-nav__link">
+    <span class="md-ellipsis">
+      The "Remote" Method [Recommended for light modding]
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The "Remote" Method [Recommended for light modding]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes-on-this-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes on this method
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-local-method-not-recommended" class="md-nav__link">
+    <span class="md-ellipsis">
+      The "Local" Method [Not Recommended]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lets-fing-do-this-thing-methods-1-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Let's F***ing do this thing [Methods 1 &amp; 2]
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Let's F***ing do this thing [Methods 1 & 2]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#you-will-need-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      You will need a...
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-install-and-test-your-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Install and test your mods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-copying-mods-to-the-deck" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Copying Mods to the Deck
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Copying Mods to the Deck">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#copy-the-following-to-the-deck-according-to-the-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Copy the following to the Deck according to the table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-setting-deck-launch-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Setting Deck Launch Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-launch" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Launch!
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#you-cant-launch-the-game-or-you-get-cant-find-r-launcher-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      You can't launch the game or you get can't find R* launcher error
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-can-load-into-the-game-but-cant-open-menyoo" class="md-nav__link">
+    <span class="md-ellipsis">
+      You can load into the game but can't open menyoo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-can-open-menyoo-and-use-it-but-you-cant-spawn-the-car" class="md-nav__link">
+    <span class="md-ellipsis">
+      You can open menyoo and use it but you cant spawn the car
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-enjoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Enjoy!
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="modding-gta-v-on-steam-deck">Modding GTA V on Steam Deck<a class="headerlink" href="#modding-gta-v-on-steam-deck" title="Permanent link">&para;</a></h1>
+<p>This guide assumes you have enough knowledge modding GTAV to be able to set up the essential mods (trainer, scripthookv, gameconfig, addon cars, etc) on a Windows install.
+If that is all gibberish to you please use the resources below before continuing with this tutorial: 
+* Basics of GTAV Modding <a href="https://www.youtube.com/watch?v=N0ovURiaTtE">Link</a>
+* How to install replacement mods (Easy way) <a href="https://gtaforums.com/topic/870069-v-how-to-create-a-own-dlc-for/">Link</a>. Highly Recommended.
+    * This is a much simpler way to install mods that replace content than the way the video above describes.</p>
+<h2 id="disclaimers">Disclaimers<a class="headerlink" href="#disclaimers" title="Permanent link">&para;</a></h2>
+<ul>
+<li>I am using the R* launcher version of GTAV, I don't know how to do this for Steam or Epic versions. I would assume that both use similar principles though.</li>
+<li>I have GTAV installed on the internal SSD on the Steam Deck, I'm not using an sdcard.</li>
+<li>I am using an external hard drive to transfer files between the Steam Deck and my computer. I have been able to get OpenIV running on the steam deck but actually using it on there is a pain in the ass.</li>
+</ul>
+<h2 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link">&para;</a></h2>
+<ol>
+<li>I would highly recommend installing GTAV on either your personal computer or directly on an external drive that you can also use to transfer files between your computer and Steam Deck. This will allow you to run your modded install of GTA on your computer as a sanity check to see if things aren't working because of the mods or because of the Deck itself.</li>
+<li>If you are able to, I recommend installing GTAV on your internal SSD on the Deck, that is how I have done it and it is working perfectly. There are people who have gotten all this working with the game on an sdcard but it takes some extra steps and I can't shed any light on them.</li>
+</ol>
+<h2 id="how-steam-treats-non-steam-games">How Steam Treats Non-Steam games<a class="headerlink" href="#how-steam-treats-non-steam-games" title="Permanent link">&para;</a></h2>
+<p>Let me start off by saying that this whole set up process is very similar to the process on Windows except that you need to treat the launcher you added to steam as a non-steam game as the way you launch any and all programs related to GTAV and mods.</p>
+<h3 id="why">Why?<a class="headerlink" href="#why" title="Permanent link">&para;</a></h3>
+<p>Basically, because steam creates a different folder in <em>home/.steam/steam/steamapps/compatdata/</em> every time you add a non-steam game to it, this means that if you want to install or run another program and have it see your GTAV folder, you have to run it through that first non-steam game you added. Otherwise it will be as if you installed that program on another computer entirely. Think of each folder inside /compatdata/ as the folder system of a different computer, because that is basically what they are.</p>
+<p>So to get around this behavior, any additional programs need to be installed by changing the target of the original non-steam game that you added (in this case, the one that you created to install the R* launcher). This ensures that the tools are installed into the correct steamapps folder.</p>
+<h2 id="modding-methods">Modding Methods<a class="headerlink" href="#modding-methods" title="Permanent link">&para;</a></h2>
+<p>There are four main ways to mod GTAV on the Deck using OpenIV. Each differ based on where OpenIV is installed and how it is accessing your GTAV files. Below is a comparison of each.</p>
+<h3 id="the-windows-computer-method-recommended-for-heavy-modding">The "Windows Computer" Method [Recommended for heavy modding]<a class="headerlink" href="#the-windows-computer-method-recommended-for-heavy-modding" title="Permanent link">&para;</a></h3>
+<p>Here you install OpenIV and GTAV on a Windows computer, modify the files there and then copy the modified ones to the Deck.
+Pros:
+* Offers the most modding freedom.
+* No worries about compatibility/trying to get OpenIV or other modding utilites working, they just do since its on Windows.
+* The ability to sanity check your work by launching the game on the Windows computer.
+* The ability to play and identical version of your modded GTA on computer, should you want to
+Cons:
+* Requires a lot of repetitive work
+* Requires a Windows computer
+* Requires an external usb stick at least 10gig in size
+* Is annoying to transfer files and make sure you are putting them in the right places</p>
+<h3 id="the-external-drive-method-what-i-did">The "External Drive" Method [What I did]<a class="headerlink" href="#the-external-drive-method-what-i-did" title="Permanent link">&para;</a></h3>
+<p>Here you install GTAV entirely on an external drive, and use that to both mod and transfer files. You install OpenIV on a Windows computer and mod the game there.
+Pros:
+* The same pros as the "Windows Computer" method
+Cons:
+* Same as "Windows Computer" method, except:
+* Instead of a &gt;10gig usb, you need an external drive at least big enough to hold GTAV ~115gig + whatever mods you want.</p>
+<h3 id="the-remote-method-recommended-for-light-modding">The "Remote" Method [Recommended for light modding]<a class="headerlink" href="#the-remote-method-recommended-for-light-modding" title="Permanent link">&para;</a></h3>
+<p>This method has you run OpenIV on another computer and access the Deck's files remotely using its built in SSH server.
+Pros:
+   * You only have to do stuff once
+   * Doesn't require any external usb drives or copying files between then
+   * It is wireless
+   * Don't have to install GTA in multiple places
+   * No worries about compatibility/trying to get OpenIV or other modding utilites working, they just do since its on Windows.
+Cons:
+   * Might not work for all modding tools and you might have to fall back on one of the other methods
+   * Is slower than other options since it is wireless
+   * Can open your Deck up to hackers if you forget to shut down the SSH server on it before connecting to public WiFi
+   * Can be a little unstable (again wireless)</p>
+<h4 id="notes-on-this-method">Notes on this method<a class="headerlink" href="#notes-on-this-method" title="Permanent link">&para;</a></h4>
+<p>If you do decided to use this method, follow this tutorial: <a href="https://www.reddit.com/r/SteamDeck/comments/165ildh/how_to_install_mods_in_gta_5_on_steam_deck/">Reddit tutorial</a>.
+To add some context for what they are describing in that post the following links are helpful:
+* <a href="https://shendrick.net/Gaming/2022/05/30/sshonsteamdeck.html">More detail on enabling SSH server</a>
+* <a href="https://github.com/winfsp/sshfs-win">SSHFS Tool for Windows</a>
+On Windows 10 you have to right click the Network option in Explorer and choose Map a Network Drive from there.
+The tutorial says to mount only /home/deck/ and then access your GTAV install from there, that didn't work for me. Instead I mounted: <code>\\sshfs.r\deck@{hostname}\home\deck\.steam\steam\steamapps\compatdata\{your folder code}\pfx\drive_c\</code>
+This gets you directly into the area where GTAV is installed.</p>
+<h3 id="the-local-method-not-recommended">The "Local" Method [Not Recommended]<a class="headerlink" href="#the-local-method-not-recommended" title="Permanent link">&para;</a></h3>
+<p>You install OpenIV and any other modding tools directly on the Deck and do all your modding there. Not even going to do a Pro/Con list for this one because honestly, while it seems like the most logical option, I really only recommend it if you can throw it in a dock and use an external monitor, keyboard etc and you are comfortable using the Deck in its Desktop Mode. I have tried using OpenIV on the deck and yes, you can, but if you are trying to use the built in screen you are going to develop back problems and eye problems.</p>
+<p>This guide will focus on the first two but the principles will be the same for all the methods.</p>
+<p>I know, its a lot. But I promise the process isn't too difficult. It is 90% making sure that you copy the right files to the right places, 10% voodoo magic.</p>
+<h2 id="lets-fing-do-this-thing-methods-1-2">Let's F***ing do this thing [Methods 1 &amp; 2]<a class="headerlink" href="#lets-fing-do-this-thing-methods-1-2" title="Permanent link">&para;</a></h2>
+<h3 id="you-will-need-a">You will need a...<a class="headerlink" href="#you-will-need-a" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Working, vanilla GTAV install on the Deck</li>
+<li>Working, vanilla GTAV install on Windows</li>
+<li>External hard drive with a separate GTAV install on it (Method 2)</li>
+<li>USB drive to transfer files (Method 1)</li>
+<li>..nother computer</li>
+<li>Lot of patience</li>
+</ul>
+<h3 id="steps">Steps<a class="headerlink" href="#steps" title="Permanent link">&para;</a></h3>
+<h4 id="1-install-and-test-your-mods">1. Install and test your mods<a class="headerlink" href="#1-install-and-test-your-mods" title="Permanent link">&para;</a></h4>
+<p>Using your knowledge or the resources linked above, install:
+* OpenIV
+* menyoo
+* scripthookv
+* an addon car mod
+If you want, you can do more (heap adjuster, gameconfig, etc), I'm just listing these as a minimum, but the more you add now the more you will have to copy over to the Deck the first time and the more that can go wrong.</p>
+<p>Make sure they are all working on Windows before continuing!</p>
+<h4 id="2-copying-mods-to-the-deck">2. Copying Mods to the Deck<a class="headerlink" href="#2-copying-mods-to-the-deck" title="Permanent link">&para;</a></h4>
+<p>Now that you have a working GTAV install we need to set it up on the Deck. Note that you only have to do all these once. When you add mods in the future you only have to copy the files that changed.</p>
+<h5 id="copy-the-following-to-the-deck-according-to-the-table">Copy the following to the Deck according to the table<a class="headerlink" href="#copy-the-following-to-the-deck-according-to-the-table" title="Permanent link">&para;</a></h5>
+<p>Put your Deck in Desktop Mode (duh).
+In the table below "/" means your main GTAV install folder on the Deck. It is shorthand for: <em>/home/.steam/steam/steamapps/compatdata/{code}/pfx/drive_c/program_files/Rockstar Games/Grand Theft Auto V/</em>
+Also note that where you put files on the Deck is the same place you get them from on Windows, inside the main GTAV folder.</p>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>file/folder name</th>
+<th>place in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OpenIV</td>
+<td>openiv.asi</td>
+<td>/</td>
+</tr>
+<tr>
+<td>OpenIV</td>
+<td>dinput8.dll</td>
+<td>/</td>
+</tr>
+<tr>
+<td>ScriptHookV</td>
+<td>ScriptHookV.dll</td>
+<td>/</td>
+</tr>
+<tr>
+<td>Menyoo</td>
+<td>Menyoo.asi</td>
+<td>/</td>
+</tr>
+<tr>
+<td>Menyoo</td>
+<td>menyooStuff</td>
+<td>/</td>
+</tr>
+<tr>
+<td>Addon mods</td>
+<td>mods</td>
+<td>/</td>
+</tr>
+<tr>
+<td>That's it! Not too bad.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="3-setting-deck-launch-options">3. Setting Deck Launch Options<a class="headerlink" href="#3-setting-deck-launch-options" title="Permanent link">&para;</a></h4>
+<p>This part is very important and specific to the Steam Deck. Not following these instructions exactly will cause things not to work.</p>
+<ol>
+<li>Still in Desktop Mode, open Steam (NOT Return to Gaming Mode)</li>
+<li>Find the GTAV non-steam game that you made from the original install</li>
+<li>Click the Gear, then Properties</li>
+<li>In Launch Options set: <code>WINEDLLOVERRIDES="dinput8.dll=n,b" %command%</code><ol>
+<li>This must be set exactly as it appears above</li>
+</ol>
+</li>
+<li>Close the Properties window</li>
+</ol>
+<h4 id="4-launch">4. Launch!<a class="headerlink" href="#4-launch" title="Permanent link">&para;</a></h4>
+<p>Now is the time to test if all your hard work as paid of. 
+1. Return to Gaming Mode and launch the game
+2. Perform the following tests:
+    1. Load into single player
+    2. Open Menyoo (RB+Left on dpad)
+    3. Spawn the modded car you added
+        1. To do so, go to the Vehicle Spawner and at the bottom of the list choose Input
+        2. Type in the name of the vehicle you added (Keyboard is: Steam Button + X)
+            1. Consult the video above if you don't know how to find the car name
+    4. Drive over some pedestrians in celebration
+If you were able to complete all the test successfully, congratulations! You now have a modded GTAV install on your Deck and a solid base to add to.
+If something broke, sorry... Head to the Troubleshooting section below.</p>
+<h4 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h4>
+<h5 id="you-cant-launch-the-game-or-you-get-cant-find-r-launcher-error">You can't launch the game or you get can't find R* launcher error<a class="headerlink" href="#you-cant-launch-the-game-or-you-get-cant-find-r-launcher-error" title="Permanent link">&para;</a></h5>
+<p>If it was launching fine before the modding process:
+1. Check the Target field in the non-steam game for GTAV
+    1. It needs to be set to either Launcher.exe or PlayGTAV.exe, if it is set to one, try the other.
+    2. The path needs to be of the form: <em>/home/deck/.steam/steam/steamapps/compatdata/{code}/pfx/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/</em> followed by either .exe. Obviously {code} is replaced with whatever the long number folder name is in your case.
+    3. Make sure the whole path is surrounded by double quotes. VERY EASY TO MISS, VERY IMPORTANT.
+2. Check the Start In field and make sure it is pointed to the directory that contains the exe in the Target field. For example: <em>/home/deck/.steam/steam/steamapps/compatdata/{code}/pfx/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/</em>
+    1. Again. {code} is replaced with whatever you folder code is
+    2. This path does not need double quotes
+If you didn't try launching the game before starting to mod you are a very bad boy and I can't help you. Welcome to what happens when you skip steps.</p>
+<h5 id="you-can-load-into-the-game-but-cant-open-menyoo">You can load into the game but can't open menyoo<a class="headerlink" href="#you-can-load-into-the-game-but-cant-open-menyoo" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Make sure that you have all the files from Step 2 in your main GTAV folder</li>
+<li>Ensure that you set the launch option correctly in Step 3</li>
+</ol>
+<h5 id="you-can-open-menyoo-and-use-it-but-you-cant-spawn-the-car">You can open menyoo and use it but you cant spawn the car<a class="headerlink" href="#you-can-open-menyoo-and-use-it-but-you-cant-spawn-the-car" title="Permanent link">&para;</a></h5>
+<ol>
+<li>Most importantly, make sure you are typing in the correct name. It is usually the name of the folder that you put into /dlclists/.</li>
+<li>Make sure that you have all the files from Step 2 in your main GTAV folder<ol>
+<li>Make especially sure that OpenIV.asi is in your GTAV folder. Yes it is possible for menyoo to work but OpenIV not to load mods.</li>
+</ol>
+</li>
+</ol>
+<h4 id="5-enjoy">5. Enjoy!<a class="headerlink" href="#5-enjoy" title="Permanent link">&para;</a></h4>
+<p>If you got to the end here and everything is working, honestly congratulations, this is a pain in the ass. Take a break by playing your newly modded game!</p>
+<p>If you want to go deeper into modding I have some notes below on getting different kinds of mods working on the Deck.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
