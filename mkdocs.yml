@@ -2,8 +2,8 @@ site_name: GTAV on Deck
 
 theme:
     name: 'material'
-    palette:
     logo: assets/V_icon.png
+    palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
