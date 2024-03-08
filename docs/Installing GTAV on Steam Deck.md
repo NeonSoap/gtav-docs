@@ -1,4 +1,3 @@
-### Installing Vanilla GTA V from R* on Steam Deck
 *A huge pain in the ass*
 A mouse and keyboard that you can use with the Deck will make this so much easier.
 Alright so, To install GTAV Rockstar version on Steam Deck:
